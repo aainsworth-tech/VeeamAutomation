@@ -48,8 +48,8 @@ Catch
     #Compression level
     $CompressionLevel = “4”
 	
-	#Maximum Retries
-	$Retries = "2"
+    #Maximum Retries
+    $Retries = "2"
     
     #SMTP server
     $SMTPServer = “SMTP IP / Domain Name”
