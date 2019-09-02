@@ -109,7 +109,7 @@ $styleFAILED = $styleFAILED + "TD{border: 1px #000000; padding: 5px;}"
 $styleFAILED = $styleFAILED + "</style>"
 
 
-#=========Backup Section: Contacts hypervisor and starts backup session. Attempts backup a maximum of three times. Stops the loop when back is successful and moves on to email=========
+#=========Backup Section: Contacts hypervisor and starts backup session. Uses a do while loop for the retries. Stops the loop when the backup is successful and moves on to email=========
 
 
 $Retry = $True
