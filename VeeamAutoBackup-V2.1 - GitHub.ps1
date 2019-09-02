@@ -31,6 +31,7 @@ Try
 Catch
    {
    write-host "Failed to add Veeam Powershell Snapin." -ForegroundColor Red
+   $_
    }
 
 #===================================Options==========================================
